@@ -1,0 +1,65 @@
+
+   /* General container styling */
+   .weather-container {
+    min-height: 100vh;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* Weather conditions */
+  .weather-clear {
+    background: linear-gradient(to bottom, #87ceeb, #ffffff); /* Sky blue to white */
+    color: #000;
+  }
+  
+  .weather-clouds {
+    background: linear-gradient(to bottom, #d3d3d3, #a9a9a9); /* Light gray to dark gray */
+    color: #000;
+  }
+  
+  .weather-rain {
+    background: linear-gradient(to bottom, #667db6, #0082c8); /* Blue-gray for rain */
+    color: #fff;
+  }
+  
+  .weather-snow {
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* Light snow tone */
+    color: #000;
+  }
+  
+  .weather-thunder {
+    background: linear-gradient(to bottom, #373b44, #4286f4); /* Stormy dark blue */
+    color: #fff;
+  }
+  
+  .weather-default {
+    background: linear-gradient(to bottom, #6a11cb, #2575fc); /* Default fallback */
+    color: #fff;
+  }
+  
+  /* Responsive weather card */
+  .card {
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  /* Toggle button group spacing */
+  .toggle-button-group {
+    margin-top: 10px;
+  }
+  
+  /* Improve mobile layout */
+  @media (max-width: 576px) {
+    .card {
+      margin-top: 20px;
+    }
+  }
+  
