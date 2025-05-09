@@ -1,9 +1,8 @@
-# E-Commerce-website
-<h5>E-commerce Product List Page</h5>
 
-## 🌐 Live Website
+## Weather App
+🌐 Live Website
+Check out my website hosted on [varcel](https://weather-qqw6ztmjy-siddharth-tutorials-projects.vercel.app/)
 
-Check out my website hosted on [Netlify](https://e-commercewebapps.netlify.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
